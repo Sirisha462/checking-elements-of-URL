@@ -1,4 +1,4 @@
- checking_clickable_elements_of_URL
+ checking-elements-of-URL
 
  Project Description:
  This project is to check all the clickable elements and images of given url.
