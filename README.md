@@ -5,7 +5,9 @@
 
  ## Getting Started
   1. Install playwright from command line
-    <br />  ```npm init playwright@latest```
+  ```
+   npm init playwright@latest
+```
   2. While installing the playwright install the browsers as well.
 
  ## Test cases
@@ -17,14 +19,23 @@
 
   ## To Run the test cases:
   Command to be used in windows:: 
-  <br /> ``` $env:URL="Provide any url" ; npx playwright test ```
-  <br /> Example::
-   <br /> ``` $env:URL="https://tesing-answerforcewebsite.appspot.com/" ; npx playwright test```
-  <br /> we can add all the requried parameters at the end of npx playwright test. Examples:
-   <br /> For adding headed mode:
-   <br /> ``` $env:URL=" https://tesing-answerforcewebsite.appspot.com/" ; npx playwright test ./tests/clickable-elements.spec.js --headed```
-   <br /> For specifying the browser and headed mode:
-    <br /> ```$env:URL=" https://tesing-answerforcewebsite.appspot.com/" ; npx playwright test ./tests/clickable-elements.spec.js --project chromium --headed ```
+   ``` 
+   $env:URL="Provide any url" ; npx playwright test
+ ```
+   Example::
+   ```
+   $env:URL="https://tesing-answerforcewebsite.appspot.com/" ; npx playwright test 
+```
+   we can add all the requried parameters at the end of npx playwright test. Examples:
+   <br /> For adding headed mode::
+   
+    
+     $env:URL=" https://tesing-answerforcewebsite.appspot.com/" ; npx playwright test ./tests/clickable-elements.spec.js --headed
+  For specifying the browser and headed mode:
+    
+     $env:URL=" https://tesing-answerforcewebsite.appspot.com/" ; npx playwright test ./tests/clickable-elements.spec.js --project chromium --headed 
+  Other Browser options available are: firefox and webkit. Replace the specific browser in the place of chromium in above command.
+    
 
 ## Languages used:
    Javascript
