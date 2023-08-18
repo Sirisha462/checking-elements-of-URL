@@ -1,1 +1,1 @@
- checking-clickable-elements-of-URL
+ checking-elements-of-URL
