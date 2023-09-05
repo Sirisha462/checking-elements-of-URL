@@ -2,7 +2,7 @@
   "name": "clickableelements",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Base.js",
   "scripts": {},
   "keywords": [],
   "author": "",

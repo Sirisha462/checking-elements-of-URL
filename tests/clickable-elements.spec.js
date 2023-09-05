@@ -1,23 +1,22 @@
-const { test, expect, chromium } = require('@playwright/test')
+const { test, expect, chromium,firefox } = require('@playwright/test')
 import { applicationpage } from '../Pages/checking-application'
+import {baseclass } from '../Pages/Base'
 let app;
-let browser;
-let page;
-let context;
-
-
+let base;
+let pageinstance;
 test.beforeEach(async() => {
     const url=process.env.URL;
-    browser = await chromium.launch();
-    context = await browser.newContext();
-    page = await context.newPage();
-    app=new applicationpage(browser,context,page,url);
+    base=new baseclass();
+    await base.initializingBrowser();
+     pageinstance=await base.returningPage();
+    const contextinstance=await base.returningContext();
+    app=new applicationpage(contextinstance,pageinstance,url);
    await app.goToApplicationPage();
 
 });
 
 test.afterEach(async()=>{
-    page.close();
+    base.closingthepage(pageinstance);
 
 })
 
