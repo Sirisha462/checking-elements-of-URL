@@ -2,7 +2,7 @@
   "name": "clickableelements",
   "version": "1.0.0",
   "description": "",
-  "main": "Base.js",
+  "main": "server.js",
   "scripts": {},
   "keywords": [],
   "author": "",
@@ -11,6 +11,7 @@
     "@playwright/test": "^1.37.0"
   },
   "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
     "chrome-aws-lambda": "^10.1.0"
   }
 }
