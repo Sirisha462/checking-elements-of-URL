@@ -9,5 +9,8 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.37.0"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0"
   }
 }
