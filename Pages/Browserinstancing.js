@@ -10,7 +10,7 @@ if (process.env.BROWSER== 'webkit')
   browser = await webkit.launch();
 if (process.env.BROWSER== 'firefox')
   browser = await firefox.launch();
-  return browser;
+  return await browser;
 }
 
 }
