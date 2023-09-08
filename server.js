@@ -1,7 +1,7 @@
 const express = require("express");
 const { exec } = require('child_process');
 const app = express();
-exports.textexecutor = app;
+exports.myfunction = app;
 
 app.post('/', async function (req, res) {
    process.env.ENVIRONMENT = req.body.env;
