@@ -1,4 +1,4 @@
-const { test, expect,chromium,webkit,firefox } = require("@playwright/test");
+const { chromium,webkit,firefox } = require("@playwright/test");
 
 let browser;
 export class browserclass {

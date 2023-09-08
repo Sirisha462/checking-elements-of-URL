@@ -1,6 +1,6 @@
 import { browserclass } from "./Browserinstancing";
 
-const { test, expect,chromium } = require("@playwright/test");
+const { test, expect } = require("@playwright/test");
 export class baseclass {
     constructor(){
         this.browser=null;
