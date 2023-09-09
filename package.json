@@ -8,10 +8,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.37.0"
+    
   },
   "dependencies": {
     "@google-cloud/functions-framework": "^3.3.0",
-    "chrome-aws-lambda": "^10.1.0"
+    "chrome-aws-lambda": "^10.1.0",
+    "@playwright/test": "^1.37.1"
   }
 }

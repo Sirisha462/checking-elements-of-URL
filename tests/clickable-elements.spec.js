@@ -5,7 +5,7 @@ let app;
 let base;
 let pageinstance;
 test.beforeEach(async() => {
-    const url=process.env.URL;
+    const url=process.env.BASEURL;
     base=new baseclass();
     await base.initializingBrowser();
      pageinstance=await base.returningPage();
